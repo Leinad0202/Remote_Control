@@ -1,7 +1,7 @@
 
-package com.mycompany.aula_06;
+package com.mycompany.main;
 
-public class AULA_06 {
+public class MAIN {
 
     public static void main(String[] args) {
         

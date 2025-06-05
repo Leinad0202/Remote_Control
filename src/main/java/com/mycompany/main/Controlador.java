@@ -1,4 +1,4 @@
-package com.mycompany.aula_06;
+package com.mycompany.main;
 
 public interface Controlador {
     public abstract void ligar();
