@@ -1,5 +1,5 @@
 
-package com.mycompany.aula_06;
+package com.mycompany.main;
 
 public class AULA_06 {
 
