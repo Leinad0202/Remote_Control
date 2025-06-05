@@ -9,12 +9,12 @@ controle remoto (`ControleRemoto`) que implementa uma interface
 3. Compile e rode com Maven:
  ```bash
  mvn clean compile exec:java -
-Dexec.mainClass="com.mycompany.aula_06.AULA_06"
+Dexec.mainClass="com.mycompany.main.MAIN"
  ```
  ou gere o JAR e execute:
  ```bash
  mvn package
- java -cp target/Remote_Control.jar com.mycompany.aula_06.AULA_06
+ java -cp target/Remote_Control.jar com.mycompany.main.MAIN
  ```
 4. Observe as saídas no console (liga o controle e exibe menu de status de
 volume).
