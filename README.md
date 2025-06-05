@@ -23,7 +23,7 @@ volume).
 menu, aumentar/diminuir volume, ativar/desativar mudo, play e pause.
 - **ControleRemoto:** implementação que armazena o estado atual (ligado/
 desligado, volume, tocando) e executa as ações definidas na interface.
-- **Main (AULA_06):** exemplo de uso: liga o controle e exibe o menu.
+- **Main:** exemplo de uso: liga o controle e exibe o menu.
 **Tecnologias:** Java (JDK), Maven (build).
 **Aprendizados:** conceitos de interfaces, implementação de métodos
 abstratos, encapsulamento de atributos, uso de construtor padrão e controle
