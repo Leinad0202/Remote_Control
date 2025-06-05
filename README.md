@@ -1,30 +1,45 @@
+````markdown
 # Remote_Control
-**Descrição:** Exemplo didático em Java de orientação a objetos. Simula um
-controle remoto (`ControleRemoto`) que implementa uma interface
-(`Controlador`) com operações como ligar/desligar e ajustar volume.
-6
-**Como Executar:**
-1. Instale Java 8+ e Maven.
-2. Navegue até a pasta do projeto em terminal.
-3. Compile e rode com Maven:
- ```bash
- mvn clean compile exec:java -
-Dexec.mainClass="com.mycompany.main.MAIN"
- ```
- ou gere o JAR e execute:
- ```bash
- mvn package
- java -cp target/Remote_Control.jar com.mycompany.main.MAIN
- ```
-4. Observe as saídas no console (liga o controle e exibe menu de status de
-volume).
-**Funcionalidades:**
-- **Controlador:** interface com métodos para ligar, desligar, abrir/fechar
-menu, aumentar/diminuir volume, ativar/desativar mudo, play e pause.
-- **ControleRemoto:** implementação que armazena o estado atual (ligado/
-desligado, volume, tocando) e executa as ações definidas na interface.
-- **Main:** exemplo de uso: liga o controle e exibe o menu.
-**Tecnologias:** Java (JDK), Maven (build).
-**Aprendizados:** conceitos de interfaces, implementação de métodos
-abstratos, encapsulamento de atributos, uso de construtor padrão e controle
-de fluxo em Java. 
+
+## Description
+Didactic Java example of object-oriented programming. This project simulates a remote control (`ControleRemoto`) that implements an interface (`Controlador`) with operations such as power on/off and volume adjustment.
+
+## How to Run
+
+1. Install Java 8+ and Maven.
+2. Open your terminal and navigate to the project folder.
+3. To compile and run using Maven, execute:
+   ```bash
+   mvn clean compile exec:java -Dexec.mainClass="com.mycompany.main.MAIN"
+````
+
+4. Alternatively, build the JAR file and run:
+
+   ```bash
+   mvn package
+   java -cp target/Remote_Control.jar com.mycompany.main.MAIN
+   ```
+5. Check the console output to see the remote control turn on and display the volume status menu.
+
+## Features
+
+* **Controlador**: Interface defining methods to power on/off, open/close menu, increase/decrease volume, mute/unmute, play, and pause.
+* **ControleRemoto**: Implementation storing current state (on/off, volume, playing) and executing interface-defined actions.
+* **Main**: Example usage that turns on the remote and displays the menu.
+
+## Technologies
+
+* Java (JDK)
+* Maven (build tool)
+
+## Learnings
+
+* Interfaces and abstract method implementation
+* Attribute encapsulation
+* Use of default constructors
+* Flow control in Java
+
+```
+
+Quer que eu faça a versão em português desse Markdown também?
+```
